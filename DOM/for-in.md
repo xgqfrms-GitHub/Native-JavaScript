@@ -45,7 +45,7 @@ https://gist.github.com/xgqfrms-GitHub/c2a887477b79d2b940e78723cbfafcf0
 
 http://www.infoq.com/cn/articles/es6-in-depth-iterators-and-the-for-of-loop
 
-```
+```js
 btns[0].outerHTML
 //"<button>充值</button>"
 btns[0].innerHTML
