@@ -15,8 +15,34 @@ https://www.ibm.com/developerworks/cn/java/j-forin.html
 https://gist.github.com/xgqfrms-GitHub/c2a887477b79d2b940e78723cbfafcf0
 
 
+```js
 
+    <script>
+        let btns = document.querySelectorAll("button");
+        // console.log(btns);
+        // for (var i = 0; i < btns.length; i++) {
+        //     btns[i].addEventListener("click", () => {
+        //         console.log(btns[i]);
+        //         console.log(btns[i].innerHTML);
+        //         console.log(btns[i].innerText);
+        //     });
+        // }
+        /*for(let i in btns){
+            console.log(btns[i]);
+        }
+        for(let i of btns){
+            console.log(btns[i]);
+        }*/
+        // btns.forEach((i) => {
+        //     console.log(btns[i]);
+        // });
+        btns.forEach(function (value) {
+            console.log(value);
+        });
+    </script>
+    
+``` 
 
-
+http://www.infoq.com/cn/articles/es6-in-depth-iterators-and-the-for-of-loop
 
 
