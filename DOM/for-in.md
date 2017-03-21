@@ -15,7 +15,7 @@ https://www.ibm.com/developerworks/cn/java/j-forin.html
 https://gist.github.com/xgqfrms-GitHub/c2a887477b79d2b940e78723cbfafcf0
 
 
-```js
+```html
 
     <script>
         let btns = document.querySelectorAll("button");
@@ -44,5 +44,15 @@ https://gist.github.com/xgqfrms-GitHub/c2a887477b79d2b940e78723cbfafcf0
 ``` 
 
 http://www.infoq.com/cn/articles/es6-in-depth-iterators-and-the-for-of-loop
+
+```
+btns[0].outerHTML
+//"<button>充值</button>"
+btns[0].innerHTML
+//"充值"
+btns[0].innerText
+//"充值"
+
+```
 
 
